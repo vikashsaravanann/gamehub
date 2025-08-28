@@ -68,6 +68,7 @@ def safe_input(prompt_text):
 # -------------------------
 # Games
 # -------------------------
+
 def calculator():
     console.print(Panel.fit("[bold cyan]Calculator[/bold cyan]\nType 'exit' to return to menu."))
     while True:
@@ -329,18 +330,18 @@ def show_scoreboard():
 def main_menu():
     while True:
         menu_panel = Panel.fit(
-            "[bold magenta]Vicky's Game Hub[/bold magenta]\n\n"
-            "1. Calculator\n"
-            "2. Number Guessing\n"
-            "3. Rock–Paper–Scissors\n"
-            "4. Tic-Tac-Toe\n"
-            "5. Snake\n"
-            "6. Show Scoreboard\n"
-            "7. Exit\n",
-            title="🕹️ Menu", subtitle="Choose 1-7"
-        )
+    "[bold magenta]Vicky's Game Hub[/bold magenta]\n\n"
+    "1. Calculator\n"
+    "2. Number Guessing\n"
+    "3. Rock–Paper–Scissors\n"
+    "4. Tic-Tac-Toe\n"
+    "5. Snake\n"
+    "6. Show Scoreboard\n"
+    "7. Exit\n",
+    title="🕹️ Menu", subtitle="Choose 1-8"
+)
         console.print(menu_panel)
-        choice = Prompt.ask("Your choice", choices=[str(i) for i in range(1,8)], default="6")
+        choice = Prompt.ask("Your choice", choices=[str(i) for i in range(1,9)], default="6")
         try:
             if choice == "1":
                 calculator()

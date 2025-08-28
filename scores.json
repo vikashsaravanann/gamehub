@@ -1,10 +1,10 @@
 {
-  "calculator_uses": 2,
-  "guessing_wins": 1,
-  "rps_wins": 0,
+  "calculator_uses": 4,
+  "guessing_wins": 2,
+  "rps_wins": 3,
   "rps_losses": 0,
-  "rps_draws": 0,
-  "ttt_wins": 0,
+  "rps_draws": 1,
+  "ttt_wins": 1,
   "ttt_losses": 0,
   "ttt_draws": 0,
   "snake_highscore": 2
