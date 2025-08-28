@@ -40,7 +40,7 @@ Built using **Python 3**, **Rich**, and **OOP principles**.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Vikash/GameHub.git
+git clone https://github.com/vikashsaravanann/gamehub.git
 
 # Move into the project folder
 cd gamehub
@@ -73,6 +73,7 @@ python3 gamehub.py
 ⸻
 
 🔗 GitHub Repository
+https://github.com/vikashsaravanann/gamehub.git
 
  gamehub on GitHub
 
