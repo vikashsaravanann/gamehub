@@ -11,3 +11,8 @@ A Python terminal-based arcade collection:
 ## 🚀 How to Run
 ```bash
 python3 gamehub.py
+## Installation
+```bash
+git clone https://github.com/vikashsaravanan/gamehub.git
+cd gamehub
+python3 gamehub.py
