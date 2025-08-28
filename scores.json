@@ -1,9 +1,11 @@
-calculator_uses=0
-guessing_wins=1
-rps_wins=0
-rps_losses=0
-rps_draws=0
-ttt_wins=0
-ttt_losses=0
-ttt_draws=0
-snake_highscore=0
+{
+  "calculator_uses": 2,
+  "guessing_wins": 1,
+  "rps_wins": 0,
+  "rps_losses": 0,
+  "rps_draws": 0,
+  "ttt_wins": 0,
+  "ttt_losses": 0,
+  "ttt_draws": 0,
+  "snake_highscore": 2
+}
